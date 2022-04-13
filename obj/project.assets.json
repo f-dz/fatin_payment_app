@@ -5460,11 +5460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LEARN\\C#\\Sesi-14 Assignment\\PaymentApp\\PaymentApp.csproj",
+      "projectUniqueName": "D:\\OCBC NISP\\Coding\\Sesi-14 Assignment\\PaymentApp\\PaymentApp.csproj",
       "projectName": "PaymentApp",
-      "projectPath": "D:\\LEARN\\C#\\Sesi-14 Assignment\\PaymentApp\\PaymentApp.csproj",
+      "projectPath": "D:\\OCBC NISP\\Coding\\Sesi-14 Assignment\\PaymentApp\\PaymentApp.csproj",
       "packagesPath": "C:\\Users\\fatinzakiya\\.nuget\\packages\\",
-      "outputPath": "D:\\LEARN\\C#\\Sesi-14 Assignment\\PaymentApp\\obj\\",
+      "outputPath": "D:\\OCBC NISP\\Coding\\Sesi-14 Assignment\\PaymentApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fatinzakiya\\AppData\\Roaming\\NuGet\\NuGet.Config",

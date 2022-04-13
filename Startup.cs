@@ -35,6 +35,8 @@ namespace PaymentApp
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddCors();
+            
             services.AddControllers();
 
             services.AddSwaggerGen(c => {
@@ -115,6 +117,12 @@ namespace PaymentApp
             app.UseSwagger();
             
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PaymentApp v1"));
+
+            app.UseCors(x => x  // global cors policy
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+            );
 
             app.UseHttpsRedirection();
 
